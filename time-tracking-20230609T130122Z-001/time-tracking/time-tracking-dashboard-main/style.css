@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+:root {
+  /* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary */
+
+  --blue: hsl(246, 80%, 60%);
+
+  --light-red-work: hsl(15, 100%, 70%);
+  --soft-blue-play: hsl(195, 74%, 62%);
+  --light-red-study: hsl(348, 100%, 68%);
+  --lime-green-exercise: hsl(145, 58%, 55%);
+  --violet-social: hsl(264, 64%, 52%);
+  --soft-orange-self-care: hsl(43, 84%, 65%);
+
+  /* ### Neutral */
+
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --desaturated-blue: hsl(234, 41%, 36%);
+  --pale-blue: hsl(236, 100%, 87%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-left: 20px;
+  background-color: var(--very-dark-blue);
+}
+.title {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  margin-top: 1rem;
+  width: 15rem;
+  height: 20rem;
+
+  border-radius: 0.5rem;
+
+  background-color: var(--blue);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.title p {
+  color: var(--pale-blue);
+}
+.title h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.title img {
+  width: 70px;
+  
+}
+
+.title2 {
+  padding-left: 2rem;
+  width: 15rem;
+  height: 10rem;
+
+  border-radius: 0.5rem;
+  background-color: var(--dark-blue);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.title2 h3 {
+  font-size: 18px;
+  color: var(--pale-blue);
+}
+.title2 h2 {
+  font-size: 18px;
+}
+
+.caixa{
+    margin-top: 2rem;
+    width: 15rem;
+  height: 13rem;
+  border-radius: 0.5rem;
+  background-color: var(--desaturated-blue);
+  
+}
+
+.caixa p{
+   
+    color: white;
+    padding-left: 2rem;
+    padding-top: 15px;
+}
+.caixa h1{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    color: white;
+    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.caixa h2{
+    color: white;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.caixa img{
+    padding-left: 8rem;
+}
